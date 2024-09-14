@@ -1,7 +1,6 @@
 import cv2
 import os
-os.chdir(r'E:\age-gender-recognition-map\Age-and-Gender-Recognition-main\models')
-
+# os.chdir(r'E:\age-gender-recognition-map\Age-and-Gender-Recognition-main\models')
 
 def detectFace(net,frame,confidence_threshold=0.7):
     frameOpencvDNN=frame.copy()
